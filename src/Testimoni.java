@@ -2,8 +2,8 @@ public class Testimoni {
     private String nom;
     private boolean lliure;
 
-    public Testimoni(String nom) {
-        this.nom = nom;
+    public Testimoni(String nomEquip) {
+        this.nom = nomEquip;
         lliure = true;
     }
 
