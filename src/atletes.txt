@@ -1,0 +1,16 @@
+Cursa de Relleus
+
+Atletes: PROCES/Thread
+Testimoni/pal: MONITOR/RECURS
+
+Pista/Main {
+    1 equip 4 atletes;
+    4 atletes per testimoni;
+
+    4 testimoni = 4 equips;
+
+
+}
+
+Calcular el temps total que triga un equip en pasarse el testimoni entre tots.
+Treure classifacio per determinar el guanyador
