@@ -1,6 +1,6 @@
 public class Equip {
 
-    public void crearEquips (String nomEquip, String nom1,String nom2, String nom3, String nom4, Testimoni testimoni) {
+    public void crearEquips (String nom1,String nom2, String nom3, String nom4, Testimoni testimoni) {
 
         Atleta[] atletasEquipo = new Atleta[4];
 //        Atleta atleta1 = new Atleta(nom1,testimoni);

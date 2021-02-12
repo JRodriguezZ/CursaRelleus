@@ -19,6 +19,7 @@ public class Atleta extends Thread {
                 e.printStackTrace();
             }
             t.deixar();
+            System.out.println(getName() + " passa el relleu.");
         }
     }
 }

@@ -8,12 +8,10 @@ public class Testimoni {
     }
 
     public synchronized void agafar() {
-        while (!lliure){
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        try {
+            while (!lliure) wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         lliure = false;
     }
